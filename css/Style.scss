@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.startDiv{
+    
+    
+        
+        .LeftDiv{
+            padding-left: 0%;
+            width: 10%;
+            height:100px;
+            .start{
+                background-color: black;
+               
+                img{
+                    margin-top: 5%;
+                    height: 80px;
+                    width: 80px;
+                    margin: 25% 0% 0% 25%;
+                }
+                
+        h5 {
+            font-family: font-file-82132;
+            color: #fff;
+            margin-top: 1px;
+            font-size: 1.5rem;
+            font-weight: bolder;
+            margin: 4% 0% 0% 25%;
+        }
+
+        p {
+            font-family: 'Open Sans';
+            color: #a5a5a5;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+            margin: 7% 0% 0% 14%;
+            padding-bottom: 20%;
+        }
+    } 
+    .linkpart{
+        background-color: #181818;
+        padding-top: 50px;
+        ul{
+            padding-left: 0%;
+            li{
+                list-style-type: none;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    text-align: center;
+                    width: 100%;
+                    display: block;
+                    font-size: 1rem;
+                    color: #909096;
+                    line-height: 3rem;
+                    border-bottom: 1px solid #6e6b6b;
+
+                }
+                a:hover{
+                    color: aqua;
+                }
+            }
+        }
+
+    }
+    .socialicons{
+        padding-bottom: 200px;
+        background-color: #181818;
+        text-align: center;
+        margin-top: -16px;
+        padding-left:35px ;
+        ul{
+            margin-bottom: 0%;
+            padding-left: 0%;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+
+            li{
+                list-style-type: none;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 50px 0px 20px 0px;
+                a{
+                    color: #909096;
+                    text-decoration: none;
+                    padding: 5px;
+
+                    svg {
+                        height: 20px;
+                        width: 20px;
+                      
+                  
+                }
+
+               
+                }
+                a:hover {
+                    color: aqua;
+                }
+            }
+        }
+    } 
+       
+    }
+
+    .RightDiv{
+        margin-left: 9%;
+        background-color: black;
+        margin-top: -100px;
+        height:747px;
+        color: #fff;
+        .tags{
+            font-family: 'La Belle Aurore',cursive;
+            color: #515152;
+            font-size: 18px;
+            position: absolute;
+        }
+    }
+    
+}
